@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perkenalan Diri</title>
+    <title>Pertemuan 3</title>
 </head>
 <body style="font-family:arial;">
     <!-- Heading -->
@@ -50,7 +50,7 @@
     <ul>
         <li>Struktur HTML</li>
         <li>Heading dan Paragraf</li>
-        <li>List</li>
+        <li>List (Unordered dan Ordered)</li>
         <li>Link dan Gambar</li>
         <li>Table</li>
     </ul><br>
