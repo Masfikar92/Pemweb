@@ -1,0 +1,81 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.leftp {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+    margin-left: 20px;
+}
+
+.rightp {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0 50px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;           
+    justify-content: center; 
+    padding-top: 20px;
+
+}
+
+.navbar li a.active {
+    border-bottom: 3px solid blue;
+    font-weight: bold;
+    color: blue;
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin : 0 10px;
+}
+
+.navbar li a:hover {
+    background-color: #ddd;
+    border-bottom: 2px solid blue;                    
+}
+.content {
+    margin: 20px;
+}
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.footer p {
+    margin: 0;
+    color: #333;
+}
+
+

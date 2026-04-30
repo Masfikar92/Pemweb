@@ -3,9 +3,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pertemuan 4</title>
+        <link rel="stylesheet" href="../css/daftar.css">
     </head>
-    <body style="font-family: Arial, sans-serif;">
-        <table border="1" align="center" width="100%">
+    <body style="font-family:arial;">
+        <div class="navbar">
+            <nav>
+                <p class="leftp">Phone</p><p class="rightp">Shop</p>
+                <ul>
+                    <li><a href="home.php" >Home</a></li>
+                    <li><a href="daftar.php" class="active">Daftar Hp</a></li>
+                    <li><a href="contact.php" >Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <table class="content" border="1" align="center" width="100%">
             <tr>
                 <th colspan="4">Daftar Smartphone</th>
             </tr>
@@ -58,5 +69,7 @@
                 <td>3.000.000</td>
             </tr>
         </table>
+        <div class="footer">
+            <p align="center">Copyright &copy; 2024 - Muhammad Zulfikar</p>
     </body>
 </html>
